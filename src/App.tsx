@@ -5,6 +5,7 @@ import {HomeHero} from "./layouts/home/sections/homeHero/HomeHero";
 import {Container} from "./components/container/Container";
 import {FeaturedPosts} from "./layouts/home/featuredPosts/FeaturedPosts";
 import {AboutUs} from "./layouts/home/sections/aboutUs/AboutUs";
+import {Categories} from "./layouts/home/categories/Categories";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <HomeHero/>
                 <FeaturedPosts/>
                 <AboutUs/>
+                <Categories/>
             </Container>
             <Footer/>
         </>
