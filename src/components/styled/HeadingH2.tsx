@@ -7,4 +7,5 @@ export const HeadingH2 = styled.h2`
     font-size: 36px;
     line-height: 48px;
     color: ${globalTheme.colors.black};
+    letter-spacing: -2px;
 `

@@ -1,9 +1,9 @@
 import * as React from 'react';
 import {FlexWrapper} from "../styled/FlexWrapper";
-import facebook from "../../svgs/facebook.svg";
-import twitter from "../../svgs/twitter.svg";
-import instagram from "../../svgs/instagram.svg";
-import linkedIn from "../../svgs/linkedIn.svg";
+import facebook from "../../assets/svgs/facebook.svg";
+import twitter from "../../assets/svgs/twitter.svg";
+import instagram from "../../assets/svgs/instagram.svg";
+import linkedIn from "../../assets/svgs/linkedIn.svg";
 
 type SocialWrapperPropsType = {
     facebook?: string,

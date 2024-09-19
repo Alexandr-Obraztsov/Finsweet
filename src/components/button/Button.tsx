@@ -5,29 +5,29 @@ import {globalTheme} from "../../GlobalTheme";
 
 type ButtonPropsType = ButtonHTMLAttributes<HTMLButtonElement> & AnchorHTMLAttributes<HTMLAnchorElement> & {
     theme: "yellow" | "white"
-    icon?: ReactNode
+    marginTop?: string
     as?: "a" | "button"
 };
 
 
 export const Button : React.FC<ButtonPropsType> = (props) => {
-    const {children, as, icon} = props
+    const {children, as} = props
 
     return (
         <StyledButton as={as} {...props}>
             {children}
-            {icon}
         </StyledButton>
     );
 };
 
 const StyledButton = styled.button<ButtonPropsType>`
-    display: flex;
+    display: inline-block;
     align-items: center;
     background-color: ${props => props.theme === "yellow" ? globalTheme.colors.yellow : globalTheme.colors.lightGrey};
     color: ${globalTheme.colors.black};
+    margin-top: ${props => props.marginTop ? props.marginTop : "0"};
     border: none;
-    padding: 8px 16px;
+    padding: 16px 48px;
 
     font-family: Sen, sans-serif;
     font-size: 18px;
