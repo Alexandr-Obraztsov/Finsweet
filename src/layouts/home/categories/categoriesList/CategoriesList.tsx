@@ -3,7 +3,7 @@ import * as React from 'react';
 import styled, {css} from "styled-components";
 import {globalTheme} from "../../../../GlobalTheme";
 import {HeadingH3} from "../../../../components/styled/HeadingH3";
-import {Body1} from "../../../../components/styled/body1";
+import {Body1} from "../../../../components/styled/Body1";
 
 export type CategoryType = {
     id: string,

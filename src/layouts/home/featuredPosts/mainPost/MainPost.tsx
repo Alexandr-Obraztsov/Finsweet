@@ -3,7 +3,7 @@ import styled from "styled-components";
 import {globalTheme} from "../../../../GlobalTheme";
 import {Label1} from "../../../../components/styled/Label1";
 import {HeadingH2} from "../../../../components/styled/HeadingH2";
-import {Body1} from "../../../../components/styled/body1";
+import {Body1} from "../../../../components/styled/Body1";
 import {Button} from "../../../../components/button/Button";
 import {HeadingH3} from "../../../../components/styled/HeadingH3";
 

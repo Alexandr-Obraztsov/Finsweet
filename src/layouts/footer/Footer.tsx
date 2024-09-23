@@ -9,7 +9,7 @@ import {TextField} from "../../components/textField/TextField";
 import {HeadingH2} from "../../components/styled/HeadingH2";
 import {SocialWrapper} from "../../components/socialWrapper/SocialWrapper";
 import {Container} from "../../components/container/Container";
-import {Body1} from "../../components/styled/body1";
+import {Body1} from "../../components/styled/Body1";
 
 export const Footer: React.FC = () => {
     return (

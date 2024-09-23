@@ -4,7 +4,7 @@ import {globalTheme} from "../../../../GlobalTheme";
 import {FlexWrapper} from "../../../../components/styled/FlexWrapper";
 import {Cap1} from "../../../../components/styled/Cap1";
 import {HeadingH2} from "../../../../components/styled/HeadingH2";
-import {Body1} from "../../../../components/styled/body1";
+import {Body1} from "../../../../components/styled/Body1";
 import {HeadingH3} from "../../../../components/styled/HeadingH3";
 
 export const AboutUs: React.FC = () => {

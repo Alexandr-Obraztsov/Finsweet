@@ -3,7 +3,7 @@ import styled from "styled-components";
 import {Container} from "../../../../components/container/Container";
 import backImage from "../../../../assets/images/homeHeroBackground.png";
 import {Display} from "../../../../components/styled/Display";
-import {Body1} from "../../../../components/styled/body1";
+import {Body1} from "../../../../components/styled/Body1";
 import {globalTheme} from "../../../../GlobalTheme";
 import {Button} from "../../../../components/button/Button";
 import {Cap1} from "../../../../components/styled/Cap1";

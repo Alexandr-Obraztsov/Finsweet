@@ -8,13 +8,14 @@ import linkedIn from "../../assets/svgs/linkedIn.svg";
 type SocialWrapperPropsType = {
     facebook?: string,
     twitter?: string,
-    instagram?: string
-    linkedIn?: string
+    instagram?: string,
+    linkedIn?: string,
+    style?: React.CSSProperties
 };
 
 export const SocialWrapper : React.FC<SocialWrapperPropsType> = (props) => {
     return (
-        <FlexWrapper gap={26.7}>
+        <FlexWrapper gap={26.7} style={props.style}>
             {props.facebook && <a href={props.facebook} target={"_blank"}><img src={facebook} alt={"Facebook"}/></a>}
             {props.twitter && <a href={props.twitter} target={"_blank"}><img src={twitter} alt={"Twitter"}/></a>}
             {props.instagram && <a href={props.instagram} target={"_blank"}><img src={instagram} alt={"Instagram"}/></a>}

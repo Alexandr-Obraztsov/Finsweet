@@ -6,6 +6,8 @@ import {Container} from "./components/container/Container";
 import {FeaturedPosts} from "./layouts/home/featuredPosts/FeaturedPosts";
 import {AboutUs} from "./layouts/home/sections/aboutUs/AboutUs";
 import {Categories} from "./layouts/home/categories/Categories";
+import {SpecialPost} from "./layouts/home/sections/specialPost/SpecialPost";
+import {ListOfAuthors} from "./layouts/home/sections/listOfAuthors/ListOfAuthors";
 
 function App() {
     return (
@@ -16,6 +18,8 @@ function App() {
                 <FeaturedPosts/>
                 <AboutUs/>
                 <Categories/>
+                <SpecialPost/>
+                <ListOfAuthors/>
             </Container>
             <Footer/>
         </>
