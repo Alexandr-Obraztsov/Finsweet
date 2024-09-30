@@ -7,6 +7,7 @@ type ButtonPropsType = ButtonHTMLAttributes<HTMLButtonElement> & AnchorHTMLAttri
     theme: "yellow" | "white"
     marginTop?: string
     as?: "a" | "button"
+    onClick?: () => void
 };
 
 

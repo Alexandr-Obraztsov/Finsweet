@@ -54,7 +54,7 @@ export const FeaturedPosts: React.FC<FeaturedPostsPropsType> = (props) => {
 };
 
 const StyledFeaturedPosts = styled.section`
-    padding: 128px 80px 0;
+    margin-top: 128px;
     background-color: white;
 
     display: grid;
